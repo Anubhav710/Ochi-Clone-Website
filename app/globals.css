@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: NM;
+  src: url("/fonts/FoundersGrotesk-Semibold.ttf");
+}
+
+.font1 {
+  font-family: NM;
+}
