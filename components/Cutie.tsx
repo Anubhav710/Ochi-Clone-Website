@@ -35,37 +35,37 @@ const Cutie = () => {
         >
           <motion.div
             ref={ref}
-            className="w-28 h-28 lg:h-80 lg:w-80 bg-white rounded-full flex items-center justify-center"
+            className="w-28 h-28 md:h-40 md:w-40 lg:h-80 lg:w-80 bg-white dark:bg-black rounded-full flex items-center justify-center"
           >
-            <motion.div className="w-2/3 h-2/3 bg-black rounded-full flex items-center justify-center ">
+            <motion.div className="w-2/3 h-2/3 bg-black dark:bg-white  rounded-full flex items-center justify-center ">
               <motion.div
                 style={{
                   rotate: rotate,
                 }}
                 className=" w-full h-4 lg:h-6 "
               >
-                <div className="w-4 lg:w-6 h-full rounded-full bg-white" />
+                <div className="w-4 lg:w-6 h-full rounded-full bg-white dark:bg-black" />
               </motion.div>
             </motion.div>
-            <h1 className="absolute text-white md:text-[1.7vw] text-xl ">
+            <h1 className="absolute text-white dark:text-black md:text-[1.7vw] text-xl ">
               PLAY
             </h1>
           </motion.div>
           <motion.div
             ref={ref}
-            className="w-28 h-28  lg:h-80 lg:w-80 overflow-hidden bg-white rounded-full flex items-center justify-center"
+            className="w-28 h-28 md:h-40 md:w-40  lg:h-80 lg:w-80 overflow-hidden dark:bg-black bg-white rounded-full flex items-center justify-center"
           >
-            <motion.div className="w-2/3 h-2/3 bg-black rounded-full flex items-center justify-center ">
+            <motion.div className="w-2/3 h-2/3 bg-black dark:bg-white rounded-full flex items-center justify-center ">
               <motion.div
                 style={{
                   rotate: rotate,
                 }}
                 className=" w-full h-4 lg:h-6 "
               >
-                <div className="w-4 lg:w-6  h-full rounded-full bg-white" />
+                <div className="w-4 lg:w-6  h-full rounded-full bg-white dark:bg-black" />
               </motion.div>
             </motion.div>
-            <h1 className="absolute text-white md:text-[1.7vw] text-xl ">
+            <h1 className="absolute text-white dark:text-black md:text-[1.7vw] text-xl ">
               PLAY
             </h1>
           </motion.div>
